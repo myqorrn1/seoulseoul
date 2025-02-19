@@ -232,7 +232,7 @@ main {
   align-items: center;
   position: relative;
   width: 80vw; /* 카드 슬라이더의 전체 너비 */
-  overflow: hidden;
+  overflow: hidden; /* 히든 */
 }
 
 .card-slider {
