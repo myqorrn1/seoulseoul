@@ -491,8 +491,7 @@ div:nth-child(5) {
 }
 /* --------------------------------------------------*/
 
-/* 600px 로 해놓고 만들어서 현재는 깨짐 */
-@media (max-width: 390px) {
+@media all and (max-width: 767px) {
   header {
     display: flex;
     justify-content: center;
